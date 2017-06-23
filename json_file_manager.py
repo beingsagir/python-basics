@@ -1,7 +1,7 @@
 import json
 from pprint import pprint
 
-with open('sample_json_file.json') as data_file:
+with open('resources/sample_json_file.json') as data_file:
     data = json.load(data_file)
 pprint(data)
 

@@ -1,4 +1,4 @@
-with open('sample_text_file.txt', 'r') as infile:
+with open('resources/sample_text_file.txt', 'r') as infile:
     data = infile.read()
 my_list = data.splitlines()
 
